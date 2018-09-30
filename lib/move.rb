@@ -11,7 +11,6 @@ def input_to_index(user)
 end
 
 def move(board, index, symbol="X")
-  index = input_to_index
   board[index] = symbol
 end
   
