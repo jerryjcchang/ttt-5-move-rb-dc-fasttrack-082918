@@ -12,7 +12,7 @@ end
 
 def move(board, index, symbol="X")
   index = input_to_index
-  board[index, symbol]
+  board[index] = symbol
 end
   
 
